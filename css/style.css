@@ -190,3 +190,22 @@
     align-items: center;
     gap: 6px;
 }
+
+
+#join{
+    text-align: center;
+    margin: 2px auto 120px;
+    padding: 80px 0 80px 0;
+    background-color: #F7F6F2;
+}
+
+ #join .join-btn{
+    display: flex;
+    justify-content: center;
+    margin: 24px 0 16px 0;
+    
+ }
+
+ #join .join-btn .shadow{
+    box-shadow: 0 10px 20px 0 rgb(160, 160, 160);
+ }
