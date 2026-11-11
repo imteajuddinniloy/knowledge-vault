@@ -161,3 +161,32 @@
     width: 32px;
     height: 32px;
 }
+
+/* ---------Solution--design--------- */
+#solution{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 60px;
+    margin: 120px 120px;
+}
+.green-p{
+    color:#30B868;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+#solution .solution-intro{
+    margin-bottom: 40PX;
+}
+
+.list-text li{
+    margin-bottom: 16px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
