@@ -22,10 +22,29 @@
     color: #ffffff;
     border: none;
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
+.shared-header{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+
+.shared-p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 24px;
+
+}
 /* ----------------Main---Style------------------- */
 
+/* -----------Navbar--Design-------------- */
 #header .navigation-container{
     display: flex;
     padding: 16px 0;
@@ -48,34 +67,38 @@
     color: black;
 }
 
-.banner{
+/* -----------Banner---Design-------------- */
+#header .banner-container{
     text-align: center;
     padding: 154px 0 179px 0;
     background: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
     gap: 40px;
 }
 
-.banner h1{
+.banner-container  h1{
     font-size: 72px;
     line-height: 80px;
     margin-bottom: 16px;
     color: #ffffff;
 }
 
-.banner h1 span{
+.banner-container h1 span{
     color: #30B868;
     font-size: 75px;
     display: block;
 }
 
-.banner p{
+.banner-container p{
     font-size: 18px;
     font-weight:200;
     line-height: 32px;
     margin-bottom: 32px;
     color: #ffffff;
 }
-.btn-2{
+
+/* -----------Banner--Button--Design-------------- */
+.banner-container .btn-2{
     padding: 8px 12px;
     color: #30B868;
     border: none;
@@ -84,17 +107,57 @@
     margin-bottom: 16px;
     font-weight: 500;
 }
-.btn-set{
+.banner-container .btn-set{
     display: flex;
     gap: 16px;
     justify-content: center;
     align-items: center;
 }
-.btn-set .btn-3{
+.banner-container .btn-set .btn-3{
     padding: 12px 16px;
     font-weight: 600;
     color: #ffffff;
     border: 1px solid white;
     border-radius: 4px;
     background-color: transparent;
+}
+
+/* ---------Problem--Design--------- */
+#problem{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 44px;
+    margin-bottom: 60px;
+}
+
+.card-container .card{
+    padding: 24px 24px;
+    box-shadow: 0 0 8px 0;
+}
+
+.card-container .card h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.card .image-bg{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-bg img{
+    width: 32px;
+    height: 32px;
 }
